@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../images/BKG02.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-background{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 100vh;
+}
+.box-title{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    min-height: 100vh;
+}
+.box-title .title h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+.box-title .title p{
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.box-photo{
+    width: 55%;
+    min-height: 100vh;
+    background-image: url('../images/MAN-TOPO-FINAL.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 12px;
+    border-radius: 4px;
+    background-color: #4a4e56;
+    color: #fff;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+.form input::placeholder{
+    color: #9a9b9d; 
+    font-size: 20px;
+    font-weight: 500;
+}
+.form button{
+    width: 100%;
+    height: 60px;
+    background-color: #024d7c;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s;
+}
+.form button:hover{
+    background-color: rgb(6, 40, 62);
+}
+/* FIM HEADER */
+
+.learn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/BKG-MEIO.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.learn-title{
+    padding-top: 80px;
+}
+.learn-title h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.learn-title p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #00ffff;
+}
+.card-learn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1014px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 460px;
+    height: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    transition: 1s;
+
+}
+.card-item:hover{
+    transform: translateY(-10px);
+    border-color: #fff;
+    box-shadow: 2px 0px 20px 0px #00ffff;
+}
+.card-item ion-icon{
+    font-size: 60px;
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+.card-item p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+/* FIM LEARN */
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 500px;
+}
+.about-int{
+    display: flex;
+    width: 100%;
+    max-width: 1014px;
+    min-height: 400px;
+}
+.about-photo{
+    position: relative;
+    top: -12px;
+    width: 50%;
+    min-height: 400px;
+    background-image: url('../images/QUEM-SOU-EU-2.png');
+    background-position: center;
+    background-size: cover;
+}
+.about-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-height: 400px;
+}
+.about-description h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #004c9b;}
+.about-description p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    line-height: 26px;
+}
+/* FIM ABOUT */
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 260px;
+    background-color: #000a10;
+}
+.footer-int{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1040px;
+    min-height: 260px;
+}
+.footer-description{
+    font-weight: 300;
+    color: #fff;
+}
+.footer-copy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-copy p{
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+}
+.footer-copy span{
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+}
